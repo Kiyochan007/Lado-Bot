@@ -5,42 +5,36 @@
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
-    "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
     "intervalGetNewCookie": 1440,
     "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
   },
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
+  "nickNameBot": "Kiyo Chan 🎀 ",
+  "prefix": ".",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
   "adminBot": [
-    "100000768468627",
-    "100030205562796",
-    "",
-    "",
-    "100082247235177"
-  ],
-  "GOD": [
-    "100000768468627",
-    "100089495797706"
-  ],
-  "DEV": [
-    "100000768468627",
-    "100089495797706"
+    "61558102884886",
+    "61560915899481"
   ],
   "whiteListMode": {
-    "enable": false,
-    "whiteListIds": [],
-    "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
+    "enable": true,
+    "whiteListIds": [
+      "61558102884886"
+    ],
+    "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
-  "nickNameBot": "𓆩X-NiL‣᭄𓆪-143🔥",
-  "authorName": "𝐗𝐍𝐈𝐋",
-  "authorFB": "https://www.facebook.com/xnilxhowdhury143",
-  "authorEmail": "xnilxhowdhury@gmail.com",
-  "prefix": "/",
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": [],
+    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
+    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
+  },
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -48,18 +42,18 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Dhaka",
+  "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "andylabaco@gmail.com",
-      "clientId": "96871167660-5js0qjdlpr2mcd331kv5obpifev5j69r.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04qK_zxJkdK7RCgYIARAAGAQSNwF-L9IrZOdI4prCgpqvAoDEvn-HpuSugKxBTRNoGS37QwxfAWJUCehSKhdas26xOh-SjmdR4uw",
+      "email": "",
+      "clientId": "727423171744-gco9r6l16pjcn2ntoqf685urth308088.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04hSt_6H0YIBrCgYIARAAGAQSNwF-L9IrPEi-uAhk8Z1EoapLwLUCAJf0eDBIo8NAvCx19g9wdJn1gj6GDMnPnjQI8bU0gD0afv8",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6LfDe7QmAAAAAMdncmzO8RDLROsn_U-VPkuV_LzZ",
-      "secretKey": "6LfDe7QmAAAAAOyLAlcnK-YxCVWwzdjow-h5pNJg"
+      "siteKey": "6LeHsq0pAAAAANBXhMt0Txj9a8yENs6OyEKu0T1g",
+      "secretKey": "6LeHsq0pAAAAADS6bSze0DR0vP_IiQqi3SMAklFI"
     }
   },
   "dashBoard": {
